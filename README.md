@@ -13,6 +13,8 @@
   <img src="https://img.shields.io/badge/license-MIT-green"/>
 </p>
 
+<h1 align="center">🐾 CantinhoPet</h1>
+
 ---
 
 ## 📋 Sobre
