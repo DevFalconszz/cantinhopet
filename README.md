@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" width="320" alt="CantinhoPet Logo">
+  <img src="assets/logo.svg" width="400" alt="CantinhoPet">
 </p>
 
 <p align="center">
