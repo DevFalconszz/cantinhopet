@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/logo.svg" width="160" alt="CantinhoPet Logo">
+  <img src="assets/logo.svg" width="320" alt="CantinhoPet Logo">
 </p>
-
-<h1 align="center">CantinhoPet</h1>
 
 <p align="center">
   Aplicativo mobile para cadastro e gerenciamento de pets com autenticação, fotos, mapa de clínicas veterinárias e muito mais.
