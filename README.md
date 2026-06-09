@@ -1,4 +1,4 @@
-
+<h1 align="center">🐾 CantinhoPet</h1>
 
 <p align="center">
   Aplicativo mobile para cadastro e gerenciamento de pets com autenticação, fotos, mapa de clínicas veterinárias e muito mais.
@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/license-MIT-green"/>
 </p>
 
-<h1 align="center">🐾 CantinhoPet</h1>
+
 
 ---
 
