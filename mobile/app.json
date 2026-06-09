@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "CantinhoPet",
+    "slug": "cantinhopet",
+    "version": "1.0.0",
+    "scheme": "cantinhopet",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Precisamos da câmera para tirar fotos do seu pet.",
+        "NSPhotoLibraryUsageDescription": "Precisamos da galeria para selecionar fotos do seu pet."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FEF3E6",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-image-picker",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permitir que $(PRODUCT_NAME) acesse sua localização para mostrar clínicas veterinárias próximas.",
+          "locationWhenInUsePermission": "Permitir que $(PRODUCT_NAME) acesse sua localização para mostrar clínicas veterinárias próximas."
+        }
+      ]
+    ]
+  }
+}

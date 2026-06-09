@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C63FF"/>
+      <stop offset="100%" style="stop-color:#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="paw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B"/>
+      <stop offset="100%" style="stop-color:#FF8E53"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="#F0EEFF"/>
+  <path d="M60 100 C40 80, 20 65, 20 50 C20 35, 32 25, 42 25 C52 25, 58 35, 60 40 C62 35, 68 25, 78 25 C88 25, 100 35, 100 50 C100 65, 80 80, 60 100Z" fill="url(#bg)" opacity="0.15"/>
+  <g>
+    <path d="M60 70 C48 70, 38 60, 38 52 C38 45, 44 40, 50 40 C55 40, 60 45, 60 50 C60 45, 65 40, 70 40 C76 40, 82 45, 82 52 C82 60, 72 70, 60 70Z" fill="url(#paw)"/>
+    <ellipse cx="42" cy="46" rx="6" ry="7" fill="url(#paw)" transform="rotate(-15,42,46)"/>
+    <ellipse cx="55" cy="37" rx="5" ry="6" fill="url(#paw)" transform="rotate(-5,55,37)"/>
+    <ellipse cx="65" cy="37" rx="5" ry="6" fill="url(#paw)" transform="rotate(5,65,37)"/>
+    <ellipse cx="78" cy="46" rx="6" ry="7" fill="url(#paw)" transform="rotate(15,78,46)"/>
+  </g>
+</svg>
