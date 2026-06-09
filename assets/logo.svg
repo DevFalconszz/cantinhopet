@@ -1,11 +1,5 @@
-<svg width="500" height="100" viewBox="0 0 500 100" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="500" y2="100">
-      <stop stop-color="#6C63FF"/>
-      <stop offset="1" stop-color="#7C6FF0"/>
-    </linearGradient>
-  </defs>
-  <text x="250" y="62" text-anchor="middle" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" fill="url(#g)" letter-spacing="-1">Cantinho</text>
-  <rect x="223" y="72" width="54" height="4" rx="2" fill="#A78BFA" opacity="0.3"/>
-  <text x="250" y="90" text-anchor="middle" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#A78BFA" letter-spacing="10">PET</text>
+<svg width="440" height="80" viewBox="0 0 440 80" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-style="italic" font-weight="700" fill="#6C63FF">C</text>
+  <text x="35" y="52" font-family="'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="300" fill="#333">antinho</text>
+  <text x="45" y="72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#A78BFA" letter-spacing="6">PET</text>
 </svg>
