@@ -1,8 +1,29 @@
 <p align="center">
-  <img src="assets/logo-readme.svg" width="120" alt="CantinhoPet Logo"/>
+  <svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#6C63FF"/>
+        <stop offset="1" stop-color="#8B7CF0"/>
+      </linearGradient>
+      <linearGradient id="h" x1="0" y1="0" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#FF6B6B"/>
+        <stop offset="1" stop-color="#FF9F43"/>
+      </linearGradient>
+    </defs>
+    <rect x="8" y="8" width="144" height="144" rx="32" fill="url(#g)"/>
+    <rect x="14" y="14" width="132" height="132" rx="28" fill="#fff" opacity="0.95"/>
+    <!-- Paw -->
+    <path d="M80 102 C62 102 48 90 48 77 C48 66 56 58 65 58 C74 58 80 65 80 72 C80 65 86 58 95 58 C104 58 112 66 112 77 C112 90 98 102 80 102Z" fill="url(#g)"/>
+    <ellipse cx="56" cy="70" rx="9" ry="11" fill="url(#g)" transform="rotate(-18 56 70)"/>
+    <ellipse cx="72" cy="58" rx="8" ry="10" fill="url(#g)" transform="rotate(-5 72 58)"/>
+    <ellipse cx="88" cy="58" rx="8" ry="10" fill="url(#g)" transform="rotate(5 88 58)"/>
+    <ellipse cx="104" cy="70" rx="9" ry="11" fill="url(#g)" transform="rotate(18 104 70)"/>
+    <!-- Heart -->
+    <path d="M80 124 C76 120 70 114 70 109 C70 105 73 102 77 102 C79 102 80 104 80 105 C80 104 81 102 83 102 C87 102 90 105 90 109 C90 114 84 120 80 124Z" fill="url(#h)" opacity="0.6"/>
+  </svg>
 </p>
 
-<h1 align="center">🐾 CantinhoPet</h1>
+<h1 align="center">CantinhoPet</h1>
 
 <p align="center">
   Aplicativo mobile para cadastro e gerenciamento de pets com autenticação, fotos, mapa de clínicas veterinárias e muito mais.
