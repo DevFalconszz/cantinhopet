@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/logo.svg" width="400" alt="CantinhoPet">
-</p>
+
 
 <p align="center">
   Aplicativo mobile para cadastro e gerenciamento de pets com autenticação, fotos, mapa de clínicas veterinárias e muito mais.
