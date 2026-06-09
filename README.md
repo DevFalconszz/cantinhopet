@@ -1,25 +1,73 @@
 <p align="center">
-  <svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
     <defs>
-      <linearGradient id="g" x1="0" y1="0" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+      <linearGradient id="g1" x1="0" y1="0" x2="180" y2="180">
         <stop stop-color="#6C63FF"/>
-        <stop offset="1" stop-color="#8B7CF0"/>
+        <stop offset="1" stop-color="#7C6FF0"/>
       </linearGradient>
-      <linearGradient id="h" x1="0" y1="0" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+      <linearGradient id="g2" x1="0" y1="0" x2="180" y2="180">
+        <stop stop-color="#6C63FF"/>
+        <stop offset="1" stop-color="#9B8DF5"/>
+      </linearGradient>
+      <linearGradient id="g3" x1="0" y1="0" x2="180" y2="180">
         <stop stop-color="#FF6B6B"/>
         <stop offset="1" stop-color="#FF9F43"/>
       </linearGradient>
+      <filter id="s">
+        <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#6C63FF" flood-opacity="0.2"/>
+      </filter>
     </defs>
-    <rect x="8" y="8" width="144" height="144" rx="32" fill="url(#g)"/>
-    <rect x="14" y="14" width="132" height="132" rx="28" fill="#fff" opacity="0.95"/>
-    <!-- Paw -->
-    <path d="M80 102 C62 102 48 90 48 77 C48 66 56 58 65 58 C74 58 80 65 80 72 C80 65 86 58 95 58 C104 58 112 66 112 77 C112 90 98 102 80 102Z" fill="url(#g)"/>
-    <ellipse cx="56" cy="70" rx="9" ry="11" fill="url(#g)" transform="rotate(-18 56 70)"/>
-    <ellipse cx="72" cy="58" rx="8" ry="10" fill="url(#g)" transform="rotate(-5 72 58)"/>
-    <ellipse cx="88" cy="58" rx="8" ry="10" fill="url(#g)" transform="rotate(5 88 58)"/>
-    <ellipse cx="104" cy="70" rx="9" ry="11" fill="url(#g)" transform="rotate(18 104 70)"/>
-    <!-- Heart -->
-    <path d="M80 124 C76 120 70 114 70 109 C70 105 73 102 77 102 C79 102 80 104 80 105 C80 104 81 102 83 102 C87 102 90 105 90 109 C90 114 84 120 80 124Z" fill="url(#h)" opacity="0.6"/>
+
+    <!-- Outer ring -->
+    <circle cx="90" cy="90" r="88" fill="#F5F3FF"/>
+    <circle cx="90" cy="90" r="82" fill="none" stroke="#6C63FF" stroke-width="1" opacity="0.08"/>
+
+    <!-- Decorative dots on ring -->
+    <circle cx="90" cy="10" r="2.5" fill="#6C63FF" opacity="0.15"/>
+    <circle cx="90" cy="170" r="2.5" fill="#6C63FF" opacity="0.15"/>
+    <circle cx="10" cy="90" r="2.5" fill="#6C63FF" opacity="0.15"/>
+    <circle cx="170" cy="90" r="2.5" fill="#6C63FF" opacity="0.15"/>
+    <circle cx="33" cy="33" r="2" fill="#6C63FF" opacity="0.1"/>
+    <circle cx="147" cy="33" r="2" fill="#6C63FF" opacity="0.1"/>
+    <circle cx="33" cy="147" r="2" fill="#6C63FF" opacity="0.1"/>
+    <circle cx="147" cy="147" r="2" fill="#6C63FF" opacity="0.1"/>
+
+    <!-- Main circle badge -->
+    <circle cx="90" cy="90" r="62" fill="#fff" filter="url(#s)"/>
+    <circle cx="90" cy="90" r="59" fill="none" stroke="#6C63FF" stroke-width="0.5" opacity="0.15"/>
+
+    <!-- House roof shape (Cantinho = home) -->
+    <path d="M90 42 L52 72 L52 74 L90 50 L128 74 L128 72Z" fill="url(#g1)" opacity="0.06"/>
+
+    <!-- Paw print - main pad -->
+    <path d="M90 112 
+             C70 112 56 102 56 88 
+             C56 77 63 68 73 68 
+             C80 68 86 74 90 80 
+             C94 74 100 68 107 68 
+             C117 68 124 77 124 88 
+             C124 102 110 112 90 112Z" 
+          fill="url(#g2)"/>
+
+    <!-- Toe pads -->
+    <ellipse cx="66" cy="82" rx="9" ry="11" fill="url(#g2)" transform="rotate(-16 66 82)"/>
+    <ellipse cx="82" cy="72" rx="8" ry="10" fill="url(#g2)" transform="rotate(-5 82 72)"/>
+    <ellipse cx="98" cy="72" rx="8" ry="10" fill="url(#g2)" transform="rotate(5 98 72)"/>
+    <ellipse cx="114" cy="82" rx="9" ry="11" fill="url(#g2)" transform="rotate(16 114 82)"/>
+
+    <!-- Paw highlights -->
+    <ellipse cx="66" cy="82" rx="3" ry="4" fill="#fff" opacity="0.3"/>
+    <ellipse cx="82" cy="72" rx="2.5" ry="3.5" fill="#fff" opacity="0.3"/>
+    <ellipse cx="98" cy="72" rx="2.5" ry="3.5" fill="#fff" opacity="0.3"/>
+    <ellipse cx="114" cy="82" rx="3" ry="4" fill="#fff" opacity="0.3"/>
+    <circle cx="90" cy="100" r="3" fill="#fff" opacity="0.2"/>
+
+    <!-- Small heart -->
+    <path d="M90 132 C87 129 82 124 82 120 C82 117 84 115 87 115 C88 115 90 116 90 117 C90 116 92 115 93 115 C96 115 98 117 98 120 C98 124 93 129 90 132Z" fill="url(#g3)" opacity="0.5"/>
+
+    <!-- Brand text -->
+    <text x="90" y="164" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="800" fill="#6C63FF" letter-spacing="4">CANTINHO</text>
+    <text x="90" y="177" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="9" font-weight="700" fill="#A78BFA" letter-spacing="6">PET</text>
   </svg>
 </p>
 
